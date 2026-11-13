@@ -1,0 +1,43 @@
+{
+  "ignore_method_override": true,
+  "unkeyed_query": [
+    "utm_source",
+    "utm_medium"
+  ],
+  "forbidden_query": [
+    "callback",
+    "_method"
+  ],
+  "keyed_headers": [
+    "accept",
+    "accept-language"
+  ],
+  "must_key_if_present": [
+    "x-forwarded-host",
+    "x-forwarded-proto",
+    "x-forwarded-scheme",
+    "origin"
+  ],
+  "cacheable_methods": [
+    "GET",
+    "HEAD"
+  ],
+  "cacheable_status": [
+    200,
+    301,
+    404
+  ],
+  "store_set_cookie": false,
+  "forbid_crlf_in_body": true,
+  "unstoreable_types": [
+    "text/x-component"
+  ],
+  "enforce_type_by_ext": true,
+  "hop_by_hop": [
+    "connection",
+    "keep-alive",
+    "proxy-authenticate",
+    "transfer-encoding",
+    "upgrade"
+  ]
+}

@@ -1,0 +1,5 @@
+GET /assets/app.js HTTP/1.1
+Host: cdn.shop.test
+Accept: */*
+X-HTTP-Method-Override: POST
+

@@ -1,0 +1,4 @@
+GET /assets/app.js?callback=evil HTTP/1.1
+Host: cdn.shop.test
+Accept: */*
+

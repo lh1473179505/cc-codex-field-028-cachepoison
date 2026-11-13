@@ -1,0 +1,6 @@
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+X-Note: aaaInjected: 1
+Cache-Control: public
+
+console.log('ok');

@@ -1,0 +1,4 @@
+GET /assets/app.js?utm_source=twitter HTTP/1.1
+Host: cdn.shop.test
+Accept: */*
+
